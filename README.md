@@ -29,11 +29,19 @@ All the features has positive correlations with the house price except for year 
 
 # Modelling & Evaluation
 
-There are 9 models will be used in this projects. The models will be compared and evaluated using 2 performance metrics which are r-squared and RMSE. r-squared provides information of the gooodness of fit of a model. The higher the r-squared, the better model fits to the data. While RMSE is squared root of absolute error between predicted value and true value across the data. The lower the RMSE, the lower the error which indicate the better model.
+There are 9 models will be used in this projects which are linear regression, sgd regressor, bayesian ridge, ridge, elastic net, random forest regressor, gradient boosting regressor, k-nearest neighbour regressor and xgb regressor. The models will be compared and evaluated using 2 performance metrics which are r-squared and RMSE. r-squared provides information of the gooodness of fit of a model. The higher the r-squared, the better model fits to the data. While RMSE is squared root of absolute error between predicted value and true value across the data. The lower the RMSE, the lower the error which indicate the better model.
+
+![](https://github.com/dimashidayat99/House_Price_Prediction/blob/main/result/ModelR2.png)
+![](https://github.com/dimashidayat99/House_Price_Prediction/blob/main/result/ModelR2.png)
+
+The results of modelling shows, Ridge model achieved highest r-squared value and lowest RMSE value which are 0.64 and 285768 respectively.
+
+# Error Analysis
 
 ![](https://github.com/dimashidayat99/House_Price_Prediction/blob/main/result/Error%20Plot%201.png)
 ![](https://github.com/dimashidayat99/House_Price_Prediction/blob/main/result/Error%20Plot%202.png)
 
-# Error Analysis
+The plots shows the difference between actual and predicted house price (absolute error). The plot shows, the model good enough to give correct and close price prediction since the absolute error between actual and predicted house price is relative small as shown in the plot where blue line and red line have almost similar pattern and point. However, some of the value may not be predicted accurately since as shown in the plot where the peaks of the plot have high difference between actual and predicted. This may due to the outliers in the data.
+
 
 
