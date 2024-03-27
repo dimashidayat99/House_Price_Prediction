@@ -1,6 +1,8 @@
 # Home Value Forecasting: Enhancing Real Estate Insights
 
-![](https://github.com/dimashidayat99/House_Price_Prediction/assets/69446089/e425669a-f902-4559-b532-5de56e257136)
+<p align="middle">
+<img src="https://github.com/dimashidayat99/House_Price_Prediction/assets/69446089/c9bd7881-405f-4729-83d8-0f79fefcbf33"  width="800" />
+</p>
 
 # Problem Statement
 Housing price trend shows constant rise or sudden drop over the years depending on the state of the economy. To forecast a house price, people usually make a comparison with properties in similar neighborhoods. Many also utilize various websites displaying the market price of the properties. However, different websites may show different prices, making it difficult for house buyers to decide. There are also many variables that go into house pricing such as the number of bedrooms, the number of bathrooms, the square footage, the view from the house, or even its condition. Considering all these variables to make price prediction will be tedious, time-consuming and may cause biasness. This project aims to utilize machine learning for house price prediction. Multiple machine learning models are tested on the dataset containing property sales records in the USA.
